@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "KeePassKit"
-  s.version      = "2.3.8"
+  s.version      = "2.3.9"
   s.summary      = "KeePass Database loading, storing and manipulation framework."
   s.homepage     = "https://github.com/lsolniczek/KeePassKit"
   s.license      = "GPLv3"
   s.author       = { "Michael Starke" => "michael.starke@hicknhack-software.com" }
-  s.source        = { :git => "https://github.com/lsolniczek/KeePassKit.git", :tag => s.version.to_s, :submodules => true }
+  s.source        = { :git => "https://github.com/lsolniczek/KeePassKit.git", :tag => s.version.to_s }
   s.requires_arc  = true
   s.default_subspec = 'Core'
 
